@@ -37,14 +37,14 @@ export const Tag = styled.p`
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 16px;
-  color: #b6b6b6;
+  color: hotpink;
 `;
 
 export const Location = styled.p`
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 0;
-  color: #969696;
+  color: tomato;
 `;
 
 export const Stats = styled.ul`
@@ -62,7 +62,7 @@ export const StatsItem = styled.li`
   flex: 1;
   padding: 16px;
   border-top: 1px solid #cecece;
-  background-color: #d9e4eb;
+  background-color: #b0f7d2;
   &:not(:last-child) {
     border-right: 1px solid #cecece;
   }
@@ -77,5 +77,5 @@ export const StatsLabel = styled.span`
 export const StatsQuantity = styled.span`
   font-size: 18px;
   font-weight: 400;
-  color: #9b9b9b;
+  color: tomato;
 `;

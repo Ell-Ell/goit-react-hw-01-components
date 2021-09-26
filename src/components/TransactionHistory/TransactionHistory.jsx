@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 import s from './TransactionHistory.module.css';
-console.log('s.TransactionHistory :>> ', s.TransactionHistory);
+
 export default function TransactionHistory({ items }) {
   return (
     <table className={s.TransactionHistory}>
