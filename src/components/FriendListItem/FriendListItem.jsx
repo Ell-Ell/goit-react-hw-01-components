@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import s from './FriendList.module.css';
+import s from '../FriendList/FriendList.module.css';
 import defaultAvatar from '../../assets/no-avatar.png';
 
 export default function FriendListItem({ avatar, name, isOnline = false }) {
